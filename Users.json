@@ -1,0 +1,14 @@
+[
+ {
+  "UserName": "Harry",
+  "Balance": 50
+ },
+ {
+  "UserName": "Ron",
+  "Balance": 150
+ },
+ {
+  "UserName": "Hermoine",
+  "Balance": 200
+ }
+]

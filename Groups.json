@@ -1,0 +1,36 @@
+[
+ {
+  "GroupName": "Hogwarts",
+  "LeaderName": "Harry",
+  "TotalBalance": 0,
+  "Members": [
+   {
+    "UserName": "Ron",
+    "Balance": 50
+   },
+   {
+    "UserName": "Hermoine",
+    "Balance": 100
+   },
+   {
+    "UserName": "Harry",
+    "Balance": 50
+   }
+  ]
+ },
+ {
+  "GroupName": "Beauxbatons",
+  "LeaderName": "Ron",
+  "TotalBalance": 0,
+  "Members": [
+   {
+    "UserName": "Hermoine",
+    "Balance": 100
+   },
+   {
+    "UserName": "Ron",
+    "Balance": 100
+   }
+  ]
+ }
+]

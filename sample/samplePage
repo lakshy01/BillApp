@@ -1,0 +1,37 @@
+// model schemas
+
+Groups - 
+[
+    {
+        Group_id: Integer
+        Group_name: String
+        leader_name: String
+        Total_Balance: Integer
+        Members: [
+            {
+                user_id: Integer
+                User_name: String
+                amount: Integer
+            },
+            {
+                user_id: Integer
+                User_name: String
+                amount: Integer
+            }
+        ]
+    }
+]
+
+Users - 
+[
+    {
+        user_id: Integer
+        user_name: String
+        balance: Integer
+    },
+    {
+        user_id: Integer
+        user_name: String
+        balance: Integer
+    }
+]

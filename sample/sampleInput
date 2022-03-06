@@ -1,0 +1,61 @@
+Users - [
+    {
+        user_id: 1
+        user_name: Harry
+        balance: 50
+    },
+    {
+        user_id: 2
+        user_name: Ron
+        balance: 150
+    },
+    {
+        user_id: 3
+        user_name: Hermoine
+        balance: 200
+    }
+]
+
+Groups - [
+    {
+        Group_id: 1
+        Group_name: Hogwarts
+        leader_name: Harry
+        Total_Balance: 600
+        Members: [
+            {
+                user_id: 1
+                user_name: Harry
+                amount: 50
+            },
+            {
+                user_id: 2
+                user_name: Ron
+                amount: 50
+            },
+            {
+                user_id: 3
+                user_name: Hermoine
+                amount: 100
+            }
+        ] 
+    },
+    {
+        Group_id: 2
+        Group_name: AnotherSchool
+        leader_name: Ron
+        Total_Balance: 0
+        Members: [
+            {
+                user_id: 1
+                user_name: Ron
+                amount: 100
+            },
+            {
+                user_id: 2
+                user_name: Hermoine
+                amount: 100
+            }
+        ]
+    }
+]
